@@ -2,7 +2,7 @@
 Comenzamos con CSS
 
 Hablamos sobre:
-- Formas de aplicar css dentro de HTML ( por link, en linea, etiqueta style)
+- Formas de aplicar css dentro de HTML 
 - Los tipos de selectores básicos de css
 - Especificidad (diferencias entre selectores etiquetas, clase, id)
 - Agrupamos selectores
