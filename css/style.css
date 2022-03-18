@@ -1,0 +1,62 @@
+/* importo las fuentes a utilizar*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Poppins:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&display=swap');
+/* importo la libreria de iconos*/
+@import url("https://use.fontawesome.com/releases/v6.1.0/css/all.css");
+
+/* estilos generales */
+body{
+  font-family: 'Poppins', sans-serif;
+}
+
+span{
+  font-weight: 700;
+  font-style: italic;
+}
+a{
+  color: white;
+  text-decoration: none;
+}
+
+/* Estilos de cabecera */
+.cabecera{
+  /* background-color: #E6E6E6; */
+  background-attachment: fixed, scroll;
+  background-image: url("../img/batman.png"), url("../img/baticueva.png");
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: auto, cover;
+  /* spoiler*/
+  height: 190px;
+  width: 100%;
+}
+
+.titulo, .subtitulo{
+  background-color: #C4C4C4;
+  color: #005677;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.titulo {
+  font-size: 32px;
+  letter-spacing: 10px;
+  text-align: center;
+}
+.subtitulo{
+  font-size: 20px;
+  letter-spacing: 8px;
+  text-align: left;
+}
+.espacio {
+  height: 200px;
+}
+
+footer{
+    background-color: #005677;
+    color: white;
+    text-align: center;
+}
+i{
+    text-align: right;
+}
